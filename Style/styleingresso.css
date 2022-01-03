@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu:wght@300&family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 
 body {
   background:black; 
@@ -57,9 +59,9 @@ header {
 }
 
 footer {
-	width: 100%;
+	width: 1000px;
 	height: 10%;
-  background-color: gray;
+  
   
   
 }
@@ -84,6 +86,85 @@ footer {
 
 .op {
 
-  padding-top: 100%;
+  padding-top: 25%;
 
 }
+.curacao {
+ height: 45%;
+  
+}
+
+.card {
+
+background: white;
+display: flex;
+flex-direction: column;
+width: 400px;
+text-align: center;
+height: 100%;
+border-radius: 1rem;
+margin: 1.5rem;
+transition: 0.3s;
+
+}
+
+.card:hover {
+
+ transform: scale(1.1);
+
+}
+
+.estado1 {
+   
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.local1 {
+
+ color: black;
+font-family: 'Oswald', sans-serif;
+}
+
+.bt1 {
+
+width: 50%;
+height: 50%;
+border: none;
+padding: 10px;
+background: orangered;
+color: white;
+transition: 0.3s;
+border-radius: 22px;
+font-size: 20px;
+font-family: 'Oswald', sans-serif;
+cursor: pointer;
+
+}
+
+.bt1:hover {
+
+ background: orange;
+ transform: scale(0.9)
+
+
+}
+
+.ingressoscard {
+  display: flex;
+  
+  font-size: 35px;
+}
+
+.imagem-ingresso {
+ height: 45%;
+  
+}
+
+.ingressoscard1 {
+  display: flex;
+  
+  font-size: 35px;
+}
+
+
